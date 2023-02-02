@@ -13,5 +13,5 @@ if(Day==6 || Day==7)
 }
 else
 {
-    Console.WriteLine($"No!"):
+    Console.WriteLine($"No!");
 }
