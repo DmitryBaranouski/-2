@@ -7,7 +7,7 @@
 // 32679 -> 6
 
 Console.Write ("введите число: ");
-int number = int.Parse (Console.WriteLine ()!);
+int number = int.Parse(Console.WriteLine ()!);
 while (number > 999)
 {
     number = number/10;
@@ -16,9 +16,10 @@ int count = 10;
 int result = number % count;
 if (number < 99)
 {
-     Console/WriteLines ($ "третьего числа нет"!);
+     Console.WriteLines($"третьего числа нет"!);
 }
   else
   {
-    Console.WriteLines ($ "{result}"!);
+    number = number % 10;
+    Console.WriteLines($"{result}"!);
   } 
